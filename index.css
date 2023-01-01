@@ -1,0 +1,114 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto";
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 40px;
+  font-family: "Roboto";
+}
+
+.box1 {
+  background-color: #fbbf24;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  margin: 10px;
+}
+
+.box2 {
+  background-color: #38bdf8;
+  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  height: 120px;
+  width: 140px;
+  text-align: center;
+  margin: 10px;
+}
+
+.box3 {
+  background-color: #ec4899;
+  padding: 65px;
+  height: 150px;
+  width: 170px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  padding-right: 65px;
+  padding-left: 65px;
+  text-align: center;
+  margin: 10px;
+}
+
+.boxes-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .boxes-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .box1 {
+    background-color: #fbbf24;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .box2 {
+    background-color: #38bdf8;
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 120px;
+    width: 140px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .box3 {
+    background-color: #ec4899;
+    padding: 65px;
+    height: 150px;
+    width: 170px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-right: 65px;
+    padding-left: 65px;
+    text-align: center;
+    margin: 20px;
+  }
+}
